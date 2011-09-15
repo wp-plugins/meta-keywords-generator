@@ -32,6 +32,7 @@ Q. Does it includes any compulsary links or so?
 A. No, it does not.
 
 == Changelog ==
+1.0.0.1	Corrected Directory Structure.
 1.0.0.0 First Version Released
 
 == Upgrade Notice ==
@@ -39,4 +40,5 @@ A. No, it does not.
 No up gradation so far.
 
 == Screenshots ==
-See screen1 and screen2 for details
+1. screen1.jpg
+2. screen2.jpg
