@@ -32,6 +32,7 @@ Q. Does it includes any compulsary links or so?
 A. No, it does not.
 
 == Changelog ==
+1.02 Again some problem with directory structure. Corrected the same and should be ok now
 1.0.0.1	Corrected Directory Structure.
 1.0.0.0 First Version Released
 

@@ -3,7 +3,7 @@
 Plugin Name: Meta Keywords Generator
 Plugin URI: http://techphernalia.com/meta-keywords-generator/
 Description: This plugin helps your SEO by adding meta keywords tag to each page and post. Plugin from one of the best coder <a href="http://techphernalia.com/" target="_blank">Durgesh Chaudhary</a>. For any support just leave your question at our <a href="http://techphernalia.com/forum/" target="_blank">discussion forum</a>.
-Version: 1.00
+Version: 1.02
 Author: Durgesh Chaudhary
 Author URI: http://techphernalia.com/
 */
