@@ -3,8 +3,8 @@ Contributors: Durgesh Chaudhary
 Donate link: http://techphernalia.com/meta-keywords-generator/
 Tags: meta, seo, keywords, automatic, description, post, posts, plugin, best, search, engine, optimization, techphernalia
 Requires at least: 2.0.2
-Tested up to: 4.3.1
-Stable tag: 4.3.1
+Tested up to: 3.2.1
+Stable tag: 3.2.1
 
 Adds Meta keywords and Description to each and every page, post, archive.
 
@@ -35,7 +35,14 @@ A. No, it does not.
 Q. Does it includes any compulsary links or so?
 A. No, it does not.
 
+Q. How many keywords can I add in compulsary list?
+A. We have set maximum length of compulsary keywords to 500 characters (including all commas, spaces).
+
+Q. What if I want to customize it or want you to customize it?
+A. Feel free to contact us any time and we will take the pain to customize it for your use.
+
 == Changelog ==
+1.05	2011 October   07	Added version in comment section for our tracking.
 1.04	2011 September 25	Added Master Keyword functionality to give you more SEO benefit.
 1.03	2011 September 19	Correcter problems related to Screenshots.
 1.02 	2011 September 14	Again some problem with directory structure. Corrected the same and should be ok now

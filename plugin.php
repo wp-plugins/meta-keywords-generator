@@ -4,7 +4,7 @@ Plugin Name: Meta Keywords Generator
 Plugin URI: http://techphernalia.com/meta-keywords-generator/
 Description: This plugin helps your SEO by adding meta keywords tag to each page, post, archive (category, tag, date, day and year). Now it also allows you to specify common keywords to be included on every web page. Plugin from one of the best coder <a href="http://techphernalia.com/" target="_blank">Durgesh Chaudhary</a>. For any support just leave your question at our <a href="http://techphernalia.com/forum/" target="_blank">discussion forum</a>.<br/>Please update some settings to get more benefit <a href="options-general.php?page=techphernalia">Update settings</a>.
 
-Version: 1.04
+Version: 1.05
 Author: Durgesh Chaudhary
 Author URI: http://techphernalia.com/
 */
@@ -35,7 +35,7 @@ function tp_mkg_render_page() {
 	esc_attr_e('Save Changes');
 	echo'" />
 	</form></div>';
-	echo '<br/><br/><div id="tp_promotion"><a target="_blank" href="http://techphernalia.com/feed/" title="Subscribe to TechPhernalia.com&#039;s RSS feed" class="rss_link"><span>Subscribe to RSS feed</span></a><a href="http://twitter.com/techphernalia" target="_blank" title="Follow TechPhernalia.com on Twitter" class="twitter_link"><span>Follow TechPhernalia.com on Twitter</span></a><a href="http://facebook.com/techphernalia" target="_blank" title="Visit TechPhernalia.com&#039;s Facebook page" class="facebook_link"><span>Visit TechPhernalia.com&#039;s Facebook page</span></a></div>';
+	echo '<br/><br/><div id="tp_promotion"><a target="_blank" href="http://techphernalia.com/feed/" title="Subscribe to Our RSS feed" class="rss_link"><span>Subscribe to RSS feed</span></a><a href="http://twitter.com/techphernalia" target="_blank" title="Follow us on Twitter" class="twitter_link"><span>Follow us on Twitter</span></a><a href="http://facebook.com/techphernalia" target="_blank" title="Visit us on Facebook" class="facebook_link"><span>Visit us on Facebook</span></a></div>';
 }
 
 
@@ -45,7 +45,7 @@ echo '<b>Compulsary Keywords</b> : Comma separated keywords which should appear 
 
 function tp_mkg_render_fields() {
 	$options = get_option('tp_mkg_options');
-	echo "<input id='tp_mkg_compulsary' name='tp_mkg_options[tp_mkg_compulsary]' size='40' maxlength='160' value='{$options['tp_mkg_compulsary']}' />";
+	echo "<input id='tp_mkg_compulsary' name='tp_mkg_options[tp_mkg_compulsary]' size='40' maxlength='500' value='{$options['tp_mkg_compulsary']}' />";
 }
 function tp_mkg_options_validate($input) {
 	$temp = trim($input['tp_mkg_compulsary']);
@@ -84,7 +84,7 @@ function tp_act () {
 		$description = substr(strip_tags($post->post_content),0,200);
 	}
 	$tp_mkg_options=get_option("tp_mkg_options");
-	echo '<!-- SEO by Meta Keywords Generator : techphernalia.com start-->
+	echo '<!-- SEO by Meta Keywords Generator : techphernalia.com v1.05 start-->
 ';
 	if (!is_home()) {
 		echo '<meta name="keywords" content="'.tp_parse($title).', '.tp_parse($name).$add.", ".$tp_mkg_options["tp_mkg_compulsary"].'" />
@@ -95,7 +95,7 @@ function tp_act () {
 <meta name="description" content="'.str_replace("\"","'",strip_shortcodes( $desc )).'" />
 ';
 	}
-	echo '<!-- SEO by Meta Keywords Generator : techphernalia.com end-->
+	echo '<!-- SEO by Meta Keywords Generator : techphernalia.com v1.05 end-->
 ';
 }
 ?>
