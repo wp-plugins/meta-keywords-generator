@@ -42,6 +42,7 @@ Q. What if I want to customize it or want you to customize it?
 A. Feel free to contact us any time and we will take the pain to customize it for your use.
 
 == Changelog ==
+1.06	2011 October   21	Changed textbox to text area. Thanks Omer Barlas for suggesting.
 1.05	2011 October   07	Added version in comment section for our tracking.
 1.04	2011 September 25	Added Master Keyword functionality to give you more SEO benefit.
 1.03	2011 September 19	Correcter problems related to Screenshots.
@@ -51,7 +52,8 @@ A. Feel free to contact us any time and we will take the pain to customize it fo
 
 == Upgrade Notice ==
 
-No up gradation so far.
+= 1.06 =
+UI Update. : Changes input box to textarea so that the content can be displayed in more friendly way.
 
 == Screenshots ==
 1. After installation in Plugins page.
