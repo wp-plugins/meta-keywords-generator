@@ -13,13 +13,15 @@ Adds Meta keywords and Description to each and every page, post, archive.
 
 This plugin helps your SEO by adding meta keywords tag to each page, post, archive (category, tag, date, day and year).
 Now it also allows you to specify common keywords to be included on every web page. Plugin from one of the best coder <a href="http://techphernalia.com/" target="_blank">Durgesh Chaudhary</a>.
-For any support just leave your question at our <a href="http://techphernalia.com/forum/" target="_blank">discussion forum</a>.
+For any support just leave your question at our <a href="http://techphernalia.com/meta-keywords-generator/" target="_blank">Meta Keywords Generator</a> page.
 
 Uses Title, Description, Categories, tags, Compulsary keywords (provided by you in setting) for keywords generation. Uses content after striping short codes and short tags for generation of description.
 
 Reduces manual work of adding them manually.
 
 Now more efficient by allowing you to add one time master keyword list.
+
+A big Thanks to <b>Omer Barlas</b> for suggesting to change text box to textarea for better readability.
 
 == Installation ==
 
@@ -42,6 +44,7 @@ Q. What if I want to customize it or want you to customize it?
 A. Feel free to contact us any time and we will take the pain to customize it for your use.
 
 == Changelog ==
+1.07	2011 November  24	Changed the forum link as it is no longer available.
 1.06	2011 October   21	Changed textbox to text area. Thanks Omer Barlas for suggesting.
 1.05	2011 October   07	Added version in comment section for our tracking.
 1.04	2011 September 25	Added Master Keyword functionality to give you more SEO benefit.
