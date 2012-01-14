@@ -4,7 +4,7 @@ Plugin Name: Meta Keywords Generator
 Plugin URI: http://techphernalia.com/meta-keywords-generator/
 Description: This plugin helps your SEO by adding meta keywords tag to each page, post, archive (category, tag, date, day and year). Now it also allows you to specify common keywords to be included on every web page. Plugin from one of the best coder <a href="http://techphernalia.com/" target="_blank">Durgesh Chaudhary</a>. For any support just leave your question on our <a href="http://techphernalia.com/meta-keywords-generator/" target="_blank">Meta Keywords Generator</a> page.<br/>Please update some settings to get more benefit <a href="options-general.php?page=techphernalia">Update settings</a>.
 
-Version: 1.07
+Version: 1.08
 Author: Durgesh Chaudhary
 Author URI: http://techphernalia.com/
 */
@@ -84,7 +84,7 @@ function tp_act () {
 		$description = substr(strip_tags($post->post_content),0,200);
 	}
 	$tp_mkg_options=get_option("tp_mkg_options");
-	echo '<!-- SEO by Meta Keywords Generator : techphernalia.com v1.07 start-->
+	echo '<!-- SEO by Meta Keywords Generator : techphernalia.com v1.08 start-->
 ';
 	if (!is_home()) {
 		echo '<meta name="keywords" content="'.tp_parse($title).', '.tp_parse($name).$add.", ".$tp_mkg_options["tp_mkg_compulsary"].'" />
@@ -95,7 +95,7 @@ function tp_act () {
 <meta name="description" content="'.str_replace("\"","'",strip_shortcodes( $desc )).'" />
 ';
 	}
-	echo '<!-- SEO by Meta Keywords Generator : techphernalia.com v1.07 end-->
+	echo '<!-- SEO by Meta Keywords Generator : techphernalia.com v1.08 end-->
 ';
 }
 ?>

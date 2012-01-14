@@ -3,8 +3,8 @@ Contributors: Durgesh Chaudhary
 Donate link: http://techphernalia.com/meta-keywords-generator/
 Tags: meta, seo, keywords, automatic, description, post, posts, plugin, best, search, engine, optimization, techphernalia
 Requires at least: 2.0.2
-Tested up to: 3.2.1
-Stable tag: 3.2.1
+Tested up to: 3.3.1
+Stable tag: 3.3.1
 
 Adds Meta keywords and Description to each and every page, post, archive.
 
@@ -44,6 +44,7 @@ Q. What if I want to customize it or want you to customize it?
 A. Feel free to contact us any time and we will take the pain to customize it for your use.
 
 == Changelog ==
+1.08	2012 January   14	Now compatible with Wordpress 3.3.1
 1.07	2011 November  24	Changed the forum link as it is no longer available.
 1.06	2011 October   21	Changed textbox to text area. Thanks Omer Barlas for suggesting.
 1.05	2011 October   07	Added version in comment section for our tracking.
