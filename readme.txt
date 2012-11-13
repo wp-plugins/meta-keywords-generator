@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: Durgesh Chaudhary
-Donate link: http://techphernalia.com/meta-keywords-generator/
+Donate link: http://home.techphernalia.com/meta-keywords-generator/
 Tags: meta, seo, keywords, automatic, description, post, posts, plugin, best, search, engine, optimization, techphernalia
 Requires at least: 2.0.2
-Tested up to: 3.3.1
-Stable tag: 3.3.1
+Tested up to: 3.4.2
+Stable tag: 3.4.2
 
 Adds Meta keywords and Description to each and every page, post, archive.
 
@@ -12,8 +12,8 @@ Adds Meta keywords and Description to each and every page, post, archive.
 == Description ==
 
 This plugin helps your SEO by adding meta keywords tag to each page, post, archive (category, tag, date, day and year).
-Now it also allows you to specify common keywords to be included on every web page. Plugin from one of the best coder <a href="http://techphernalia.com/" target="_blank">Durgesh Chaudhary</a>.
-For any support just leave your question at our <a href="http://techphernalia.com/meta-keywords-generator/" target="_blank">Meta Keywords Generator</a> page.
+Now it also allows you to specify common keywords to be included on every web page. Plugin from one of the best coder <a href="http://home.techphernalia.com/" target="_blank">Durgesh Chaudhary</a>.
+For any support just leave your question at our <a href="http://home.techphernalia.com/meta-keywords-generator/" target="_blank">Meta Keywords Generator</a> page.
 
 Uses Title, Description, Categories, tags, Compulsary keywords (provided by you in setting) for keywords generation. Uses content after striping short codes and short tags for generation of description.
 
@@ -44,6 +44,7 @@ Q. What if I want to customize it or want you to customize it?
 A. Feel free to contact us any time and we will take the pain to customize it for your use.
 
 == Changelog ==
+1.09	2012 November  13	Modified links and other settings
 1.08	2012 January   14	Now compatible with Wordpress 3.3.1
 1.07	2011 November  24	Changed the forum link as it is no longer available.
 1.06	2011 October   21	Changed textbox to text area. Thanks Omer Barlas for suggesting.
