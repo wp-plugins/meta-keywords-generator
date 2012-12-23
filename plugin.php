@@ -1,10 +1,9 @@
 <?php
 /*
 Plugin Name: Meta Keywords Generator
-Plugin URI: http://home.techphernalia.com/meta-keywords-generator/
-Description: This plugin helps your SEO by adding meta keywords tag to each page, post, archive (category, tag, date, day and year). Now it also allows you to specify common keywords to be included on every web page. Plugin from one of the best coder <a href="http://home.techphernalia.com/" target="_blank">Durgesh Chaudhary</a>. For any support just leave your question on our <a href="http://home.techphernalia.com/meta-keywords-generator/" target="_blank">Meta Keywords Generator</a> page.<br/>Please update some settings to get more benefit <a href="options-general.php?page=techphernalia">Update settings</a>.
-
-Version: 1.09
+Plugin URI: http://home.techphernalia.com/2011/09/meta-keywords-generator/
+Description: This plugin helps your SEO by adding meta keywords tag to each page, post, archive (category, tag, date, day and year). Now it also allows you to specify common keywords to be included on every web page. Plugin from one of the best coder <a href="http://home.techphernalia.com/" target="_blank">Durgesh Chaudhary</a>. For any support just leave your question on our <a href="http://home.techphernalia.com/2011/09/meta-keywords-generator/" target="_blank">Meta Keywords Generator</a> page.<br/>Please update some settings to get more benefit <a href="options-general.php?page=techphernalia">Update settings</a>.
+Version: 1.10
 Author: Durgesh Chaudhary
 Author URI: http://home.techphernalia.com/
 */
@@ -27,7 +26,7 @@ function tp_mkg_render_page() {
 	echo '<style>#tp_promotion span {display: none;}#tp_promotion a{background: url(http://techphernalia.com/sprite_master.png) left top no-repeat;float: left;width: 32px;height: 32px;margin-right: 10px;}#tp_promotion a.twitter_link{	background-position: left -414px;}#tp_promotion a.facebook_link{background-position: -69px -414px;}</style>';
 	echo '<div class="wrap">
 	<center><h2>Meta Keywords Generator Settings</h2></center>
-	We are working continuously to provide you more SEO benefit and here comes the first in this series which allow you to provide some keywords which you want to be available on each and every web page served to your user. Currently we have only one setting we will have more soon.<br/><br/>Feel free to <b>request features</b> on our <a href="http://techphernalia.com/blog/" target="_blank">blog</a> or on <a href="http://techphernalia.com/meta-keywords-generator/" target="_blank">plugin page</a>.
+	We are working continuously to provide you more SEO benefit and here comes the first in this series which allow you to provide some keywords which you want to be available on each and every web page served to your user. Currently we have only one setting we will have more soon.<br/><br/>Feel free to <b>request features</b> on our <a href="http://home.techphernalia.com/" target="_blank">blog</a> or on <a href="http://home.techphernalia.com/2011/09/meta-keywords-generator/" target="_blank">plugin page</a>.
 	<form action="options.php" method="post">';
 	settings_fields('tp_mkg_options');
 	do_settings_sections('techphernalia');
@@ -55,7 +54,7 @@ function tp_mkg_options_validate($input) {
 }
 
 function tp_notify () {
-	echo '<p>SEO provided by <strong><a href="http://home.techphernalia.com/meta-keywords-generator/" target="_blank">Meta Keywords Generator</a></strong> from <a href="http://home.techphernalia.com/" target="_blank">techphernalia.com</a></p>';
+	echo '<p>SEO provided by <strong><a href="http://home.techphernalia.com/2011/09/meta-keywords-generator/" target="_blank">Meta Keywords Generator</a></strong> from <a href="http://home.techphernalia.com/" target="_blank">techphernalia.com</a></p>';
 }
 
 function tp_parse ($str) {
@@ -84,7 +83,7 @@ function tp_act () {
 		$description = substr(strip_tags($post->post_content),0,200);
 	}
 	$tp_mkg_options=get_option("tp_mkg_options");
-	echo '<!-- SEO by Meta Keywords Generator : techphernalia.com v1.09 start-->
+	echo '<!-- SEO by Meta Keywords Generator : techphernalia.com v1.10 start-->
 ';
 	if (!is_home()) {
 		echo '<meta name="keywords" content="'.tp_parse($title).', '.tp_parse($name).$add.", ".$tp_mkg_options["tp_mkg_compulsary"].'" />
@@ -95,7 +94,7 @@ function tp_act () {
 <meta name="description" content="'.str_replace("\"","'",strip_shortcodes( $desc )).'" />
 ';
 	}
-	echo '<!-- SEO by Meta Keywords Generator : techphernalia.com v1.09 end-->
+	echo '<!-- SEO by Meta Keywords Generator : techphernalia.com v1.10 end-->
 ';
 }
 ?>
