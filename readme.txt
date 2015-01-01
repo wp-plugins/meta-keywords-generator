@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: Durgesh Chaudhary
-Donate link: http://home.techphernalia.com/2011/09/meta-keywords-generator/
+Donate link: https://www.techphernalia.com/meta-keywords-generator/
 Tags: meta, seo, keywords, automatic, description, post, posts, plugin, best, search, engine, optimization, techphernalia
 Requires at least: 2.0.2
-Tested up to: 3.5
+Tested up to: 4.1
 Stable tag: 3.5
 
 Adds Meta keywords and Description to each and every page, post, archive.
@@ -12,8 +12,8 @@ Adds Meta keywords and Description to each and every page, post, archive.
 == Description ==
 
 This plugin helps your SEO by adding meta keywords tag to each page, post, archive (category, tag, date, day and year).
-Now it also allows you to specify common keywords to be included on every web page. Plugin from one of the best coder <a href="http://home.techphernalia.com/" target="_blank">Durgesh Chaudhary</a>.
-For any support just leave your question at our <a href="http://home.techphernalia.com/2011/09/meta-keywords-generator/" target="_blank">Meta Keywords Generator</a> page.
+Now it also allows you to specify common keywords to be included on every web page. Plugin from one of the best coder <a href="https://www.techphernalia.com/" target="_blank">Durgesh Chaudhary</a>.
+For any support just leave your question at our <a href="https://www.techphernalia.com/meta-keywords-generator/" target="_blank">Meta Keywords Generator</a> page.
 
 Uses Title, Description, Categories, tags, Compulsary keywords (provided by you in setting) for keywords generation. Uses content after striping short codes and short tags for generation of description.
 
@@ -44,6 +44,7 @@ Q. What if I want to customize it or want you to customize it?
 A. Feel free to contact us any time and we will take the pain to customize it for your use.
 
 == Changelog ==
+1.11	2015 January   02	Corrected links
 1.10	2012 December  23	Corrected links
 1.09	2012 November  13	Modified links and other settings
 1.08	2012 January   14	Now compatible with Wordpress 3.3.1
